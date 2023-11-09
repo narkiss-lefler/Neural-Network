@@ -12,9 +12,9 @@ Each layer in the network receives an input vector x ∈ R^m and returns an outp
 the following mathematical operation: y = f (W·x + b).  
 
 When we define:
-- W ∈ M(n×m)(R), A matrix whose members are called the weights of the layer.                                                                              
-- b ∈ R^n Bias vector of the layer.                                              
-- f : R^n → R^n The activation function of the layer.
+- W ∈ M(n×m)(R), A matrix whose members are called the **weights** of the layer.                                                                              
+- b ∈ R^n **Bias** vector of the layer.                                              
+- f : R^n → R^n The **activation function** of the layer.
                                                                                                                              
 That is, given a vector input x ∈ R^m, the vector y = f(W·x+b)∈R^n, will be the output of the layer.                                     
 
@@ -67,7 +67,7 @@ Given this output vector, the network's answer will be that the number in the im
 Running the program:
 -
 The program will receive in the command line paths to the weights and offsets files as binary files. We will run the program with the weights and offsets like this:            
-$ ./mlpnetwork w1 w2 w3 w4 b1 b2 b3 b4
+**$ ./mlpnetwork w1 w2 w3 w4 b1 b2 b3 b4**
 - w(i) - Path to the weights file of the i-th layer
 - b(i) - Path to the bias file of the ith layer
 When the program is running, it waits for input from the user. The input will be a path to an image file containing a digit.
@@ -78,8 +78,8 @@ The program:
    For example:
                                  
    <img width="343" alt="Screen Shot 2023-11-09 at 15 50 36" src="https://github.com/narkiss-lefler/Neural-Network/assets/149950061/512beef6-ee21-4580-a75e-eb9865824f18">
-5. The program will wait for a new input
-
+5. The program will wait for a new input         
+When we enter the software q - the software will come out with code 0.
    
 
 
