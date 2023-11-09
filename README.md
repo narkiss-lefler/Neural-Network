@@ -78,8 +78,8 @@ The program:
    For example:
                                  
    <img width="343" alt="Screen Shot 2023-11-09 at 15 50 36" src="https://github.com/narkiss-lefler/Neural-Network/assets/149950061/512beef6-ee21-4580-a75e-eb9865824f18">
-5. The program will wait for a new input         
-When we enter the software q - the software will come out with code 0.
+5. The program will wait for a new input.         
+When we enter the program q - the program will finish with code 0.
    
 
 
