@@ -66,7 +66,7 @@ Given this output vector, the network's answer will be that the number in the im
 
 Running the program:
 -
-The program will receive in the command line paths to the weights and offsets files as binary files. We will run the program with the weights and offsets like this:
+The program will receive in the command line paths to the weights and offsets files as binary files. We will run the program with the weights and offsets like this:            
 $ ./mlpnetwork w1 w2 w3 w4 b1 b2 b3 b4
 - w(i) - Path to the weights file of the i-th layer
 - b(i) - Path to the bias file of the ith layer
